@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8F3U9SULW9GiH7S3Uekr29JeqetA7g2ozmgw5l6q50k=",
+  "Source": "GrpcService1_SimpleTalkGrpcService",
+  "BasePath": "_content/GrpcService1_SimpleTalkGrpcService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
