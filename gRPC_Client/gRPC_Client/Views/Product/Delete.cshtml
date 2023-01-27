@@ -1,0 +1,26 @@
+﻿@model gRPC_Client.Product
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@Html.AntiForgeryToken()
+
+<form asp-action="Delete" method="post"> 
+    <table class="table table-striped" >
+        <input type="hidden" asp-for="@Model.Id"/>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.Price</td>
+        </tr>
+    </table>
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>
+<a asp-action="Index">Back to list</a>
